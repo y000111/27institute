@@ -1,0 +1,28 @@
+{
+    "server_send": {
+        "cmd": "get_ports_data",
+        "mid": 12345678,
+        "cid": "12345678",
+        "ports": [
+            0,
+            2,
+            4,
+            7,
+            16,
+            33
+        ]
+    },
+    "controller_send": {
+        "rcmd": "get_ports_data",
+        "mid": 12345678,
+        "cid": "12345678",
+        "data": [
+            0,
+            1,
+            1,
+            0,
+            2.4453,
+            3.1415
+        ]
+    }
+}
